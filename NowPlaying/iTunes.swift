@@ -669,3 +669,4 @@ public enum iTunesScripting: String {
     case visual = "visual"
     case window = "window"
 }
+

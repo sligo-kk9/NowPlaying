@@ -79,4 +79,3 @@ extension ViewController: NSWindowDelegate {
     }
 }
 
-

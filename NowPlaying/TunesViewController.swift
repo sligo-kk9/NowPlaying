@@ -31,7 +31,6 @@ class TunesViewController: NSViewController {
     
     func update() {
         let track = WPTrack(using: iTunes.currentTrack)
-
         titleLabel.stringValue = track.title 
         artistLabel.stringValue = track.artist
         timeLabel.stringValue = df.string(from: Date())

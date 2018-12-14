@@ -14,6 +14,7 @@ struct WPTrack {
     let artist: String
     let image: NSImage?
     
+    
     init(using track: iTunesTrack?) {
         title = track?.name ?? ""
         artist = track?.artist ?? ""

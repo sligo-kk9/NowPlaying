@@ -52,7 +52,7 @@
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="0.0"/>
+            <point key="canvasLocation" x="54" y="-270"/>
         </scene>
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
@@ -106,11 +106,11 @@
             <objects>
                 <viewController id="fa6-PL-S8A" customClass="TunesViewController" customModule="NowPlaying" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="BSR-Xg-o6Y">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="450"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="454"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="5ab-pJ-s4X">
-                                <rect key="frame" x="18" y="391" width="139" height="39"/>
+                                <rect key="frame" x="18" y="395" width="139" height="39"/>
                                 <textFieldCell key="cell" title="TitleLabel" id="l0f-I4-tNg">
                                     <font key="font" metaFont="system" size="32"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -118,7 +118,7 @@
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="647-wx-ict">
-                                <rect key="frame" x="18" y="344" width="153" height="39"/>
+                                <rect key="frame" x="18" y="348" width="153" height="39"/>
                                 <textFieldCell key="cell" title="ArtistLabel" id="CbQ-nx-9ap">
                                     <font key="font" metaFont="system" size="32"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -126,7 +126,7 @@
                                 </textFieldCell>
                             </textField>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="yE0-IP-zGY">
-                                <rect key="frame" x="175" y="78" width="250" height="250"/>
+                                <rect key="frame" x="175" y="82" width="250" height="250"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="250" id="NH1-LG-hxK"/>
                                     <constraint firstAttribute="width" constant="250" id="m6N-NR-qAi"/>
@@ -134,7 +134,7 @@
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="O8a-Ih-f6v"/>
                             </imageView>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="qxm-gd-rRr">
-                                <rect key="frame" x="226" y="23" width="148" height="39"/>
+                                <rect key="frame" x="226" y="27" width="148" height="39"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="TimeLabel" id="J5S-4J-8qK">
                                     <font key="font" metaFont="system" size="32"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -162,7 +162,7 @@
                 </viewController>
                 <customObject id="eXo-LR-6KH" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="1684.5"/>
+            <point key="canvasLocation" x="75" y="1686"/>
         </scene>
     </scenes>
 </document>
