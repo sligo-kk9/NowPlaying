@@ -14,6 +14,7 @@ class TunesViewController: NSViewController {
     @IBOutlet weak var artistLabel: NSTextField!
     @IBOutlet weak var timeLabel: NSTextField!
     @IBOutlet weak var imageView: NSImageView!
+    @IBOutlet weak var stackView: NSStackView!
     
     weak var iTunes: iTunesApplication!
     let df = DateFormatter()
@@ -27,6 +28,11 @@ class TunesViewController: NSViewController {
     override func viewWillAppear() {
         super.viewWillAppear()
         update()
+    }
+    
+    override func viewWillLayout() {
+        titleLabel.preferredMaxLayoutWidth = NSWidth(titleLabel.alignmentRect(forFrame: titleLabel.frame))
+        artistLabel.preferredMaxLayoutWidth = NSWidth(artistLabel.alignmentRect(forFrame: artistLabel.frame))
     }
     
     func update() {

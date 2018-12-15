@@ -19,8 +19,8 @@ struct WPTrack {
         title = track?.name ?? ""
         artist = track?.artist ?? ""
         if let trackArt = track?.artworks!() as? [iTunesArtwork],
-            let art = trackArt.first {
-            self.image = art.data
+            let art = trackArt.first, let data = art.rawData {
+            self.image = NSImage(data: data)
         } else {
             self.image = nil
         }
